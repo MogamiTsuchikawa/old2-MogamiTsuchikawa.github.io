@@ -2,11 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import HeaderComponent from './component/Header'
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 ReactDOM.render(
   <React.StrictMode>
+    <HeaderComponent/>
     <Router>
       <Route exact path="/" component={App}></Route>
     </Router>
