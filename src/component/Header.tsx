@@ -9,6 +9,7 @@ const HeaderComponent: React.FC<Props> = (props) => {
           <Nav.Link href="#home">Home</Nav.Link>
           <Nav.Link href="#work">Work</Nav.Link>
           <Nav.Link href="#contact">Contact</Nav.Link>
+          <Nav.Link href="terminal">Terminal</Nav.Link>
         </Nav>
       </Navbar>
     </div>

@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import HeaderComponent from './component/Header'
+import TerminalPage from './component/Terminal'
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
@@ -11,6 +12,7 @@ ReactDOM.render(
     <HeaderComponent/>
     <Router>
       <Route exact path="/" component={App}></Route>
+      <Route exact path="/terminal" component={TerminalPage}></Route>
     </Router>
   </React.StrictMode>,
   document.getElementById('root')
