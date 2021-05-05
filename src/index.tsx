@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import MainPage from './component/MainPage'
 import HeaderComponent from './component/Header'
 import TerminalPage from './component/Terminal'
+import Work from './component/Work'
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
@@ -11,7 +12,8 @@ ReactDOM.render(
   <React.StrictMode>
     <HeaderComponent/>
     <Router>
-      <Route exact path="/" component={App}></Route>
+      <Route exact path="/" component={MainPage}></Route>
+      <Route exact path="/work" component={Work}></Route>
       <Route exact path="/terminal" component={TerminalPage}></Route>
     </Router>
   </React.StrictMode>,
