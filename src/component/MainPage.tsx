@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import React, { useEffect, useState } from 'react';
 import { Button, Navbar, Nav, Container, Row, Col } from "react-bootstrap";
 import Skill from './Skill';
@@ -17,9 +17,9 @@ const MainPage: React.FC<Props> = (props) => {
   return (
     <div>
       <Container>
-        <Row style={{ marginTop: "10px" }}>
+        <Row style={{ marginTop: "40px" }}>
           <Col xs={12} md={4}>
-            <img src="./img/_myicon.jpg" alt="icon" style={iconStyle} />
+            <img src="./img/myicon.png" alt="icon" style={iconStyle} />
           </Col>
           <Col xs={12} md={8}>
             <h4 style={{ fontSize: "30px", margin: "0 0 0 0", textAlign: "center" }}>最上土川</h4>
@@ -33,7 +33,7 @@ const MainPage: React.FC<Props> = (props) => {
         <Row>
           <Col md={12}>
             <h2 style={{ textAlign: "center", margin: "40px 0 10px 0" }}>Work</h2>
-            <p style={{ textAlign: "center", margin: "40px 0 10px 0" }}>作った物は<a href={"/work"}>こちら</a>から</p>
+            <p style={{ textAlign: "center", margin: "40px 0 10px 0" }}>作った物は<Link to="/work">こちら</Link>から</p>
           </Col>
         </Row>
         <Row>

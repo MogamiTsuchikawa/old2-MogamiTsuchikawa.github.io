@@ -10,8 +10,8 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 ReactDOM.render(
   <React.StrictMode>
-    <HeaderComponent/>
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
+      <HeaderComponent/>
       <Route exact path="/" component={MainPage}></Route>
       <Route exact path="/work" component={Work}></Route>
       <Route exact path="/terminal" component={TerminalPage}></Route>
