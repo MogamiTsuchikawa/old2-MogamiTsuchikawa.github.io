@@ -4,7 +4,16 @@ const HeaderComponent: React.FC<Props> = (props) => {
   return (
     <div>
       <Navbar collapseOnSelect expand="sm" bg="primary" variant="dark">
-        <Navbar.Brand href="#home">mogami.dev</Navbar.Brand>
+        <Navbar.Brand href="#home">
+          <img
+            src="img/_myicon.jpg"
+            width="30"
+            height="30"
+            className="d-inline-block align-top"
+            alt="React Bootstrap logo"
+            style={{marginRight:"5px",borderRadius:"50%"}}
+          />
+      mogami.dev</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">

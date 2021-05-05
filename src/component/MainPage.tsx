@@ -12,27 +12,33 @@ const MainPage: React.FC<Props> = (props) => {
     margin: "0 auto"
   }
   const syozokuStyle = {
-    
+
   }
   return (
     <div>
       <Container>
-        <Row style={{marginTop: "10px"}}>
+        <Row style={{ marginTop: "10px" }}>
           <Col xs={12} md={4}>
-            <img src="./img/_myicon.jpg" alt="icon" style={iconStyle}/>
+            <img src="./img/_myicon.jpg" alt="icon" style={iconStyle} />
           </Col>
           <Col xs={12} md={8}>
-            <h4 style={{fontSize: "30px", margin: "0 0 0 0", textAlign: "center"}}>最上土川</h4>
-            <h5 style={{fontSize: "16px", margin: "0 0 5px 0", textAlign: "center"}}>MogamiTsuchikawa</h5>
-            <p style={{textAlign: "center"}}>Webフロントエンド・バックエンド開発からゲーム開発、スマホアプリ開発、組み込み系など幅広く開発をしている大学生です</p>
-            <h4 style={{margin: "10px 0 5px 0", textAlign: "center"}}>所属</h4>
-            <p style={{fontSize: "14px",margin: "0 0 0 0", textAlign: "center"}}>芝浦工業大学 電気工学科 2年</p>
-            <p style={{fontSize: "14px",margin: "0 0 0 0", textAlign: "center"}}>Gaiax XS事業部 インターン</p>
+            <h4 style={{ fontSize: "30px", margin: "0 0 0 0", textAlign: "center" }}>最上土川</h4>
+            <h5 style={{ fontSize: "16px", margin: "0 0 5px 0", textAlign: "center" }}>MogamiTsuchikawa</h5>
+            <p style={{ textAlign: "center" }}>Webフロントエンド・バックエンド開発からゲーム開発、スマホアプリ開発、組み込み系など幅広く開発をしている大学生です</p>
+            <h4 style={{ margin: "10px 0 5px 0", textAlign: "center" }}>所属</h4>
+            <p style={{ fontSize: "14px", margin: "0 0 0 0", textAlign: "center" }}>芝浦工業大学 電気工学科 2年</p>
+            <p style={{ fontSize: "14px", margin: "0 0 0 0", textAlign: "center" }}>Gaiax XS事業部 インターン</p>
           </Col>
         </Row>
         <Row>
           <Col md={12}>
-            <h2 style={{textAlign: "center", margin: "40px 0 10px 0"}}>Skill</h2>
+            <h2 style={{ textAlign: "center", margin: "40px 0 10px 0" }}>Work</h2>
+            <p style={{ textAlign: "center", margin: "40px 0 10px 0" }}>作った物は<a href={"/work"}>こちら</a>から</p>
+          </Col>
+        </Row>
+        <Row>
+          <Col md={12}>
+            <h2 style={{ textAlign: "center", margin: "40px 0 10px 0" }}>Skill</h2>
           </Col>
           <Skill title={"React"} content={"フロントエンドフレームワーク "} usedFor={"インターンやサークルで使用"} iClassName={"devicon-react-original colored"} />
           <Skill title={"TypeScript"} content={"JavaScriptに型とクラスベースオブジェクトを追加した言語 "} usedFor={"主にReactと合わせて利用"} iClassName={"devicon-typescript-plain colored"} />
