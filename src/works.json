@@ -1,0 +1,156 @@
+[
+    {
+        "title":"5Gハンター",
+        "content":"KDDI後援日本Androidの会主催の5Gエクスペリエンスハッカソンにて作成したアプリ。最優秀賞を受賞。アイデアを考えた自分をリーダーとし、他社会人エンジニア4人と共同開発。技術としてはKotlin,Firebaseを利用している。",
+        "urls":[
+            {
+                "text":"イベントページ",
+                "url":"https://japan-android-group.connpass.com/event/208114/"
+            },
+            {
+                "text":"イベントYoutuveLive(再生開始は自分の発表から)",
+                "url":"https://youtu.be/i4mIYuUBU34?t=7950"
+            }
+        ],
+        "iframes":[
+            "https://onedrive.live.com/embed?cid=52B0EC3347AD6880&resid=52B0EC3347AD6880%21258599&authkey=AHarYAF2R6YRNkM&em=2"
+        ],
+        "images":[
+
+        ],
+        "tags":[
+            "受賞","5G","Android","Kotlin","Firebase"
+        ]
+    },
+    {
+        "title":"初心者講座資料",
+        "content":"所属するサークルデジクリにてC#やUnity、JSに関しての講座を開講",
+        "urls":[
+        ],
+        "iframes":[
+            "https://onedrive.live.com/embed?cid=E163E1D662DD3E1F&resid=E163E1D662DD3E1F%2118724&authkey=AFOx-5haeGkh56M&em=2",
+            "https://onedrive.live.com/embed?cid=E163E1D662DD3E1F&resid=E163E1D662DD3E1F%2118723&authkey=ANQaGaMaaAE1ZB0&em=2",
+            "https://onedrive.live.com/embed?cid=E163E1D662DD3E1F&resid=E163E1D662DD3E1F%2118721&authkey=AETw2B5oSWz7Q9c&em=2",
+            "https://onedrive.live.com/embed?cid=E163E1D662DD3E1F&resid=E163E1D662DD3E1F%2118722&authkey=AAVJ_PP-gTKWeUQ&em=2",
+            "https://onedrive.live.com/embed?cid=E163E1D662DD3E1F&resid=E163E1D662DD3E1F%2118768&authkey=AG8_GBNdPI2tFSs&em=2",
+            "https://onedrive.live.com/embed?cid=E163E1D662DD3E1F&resid=E163E1D662DD3E1F%2118773&authkey=AEGs0Zq4QCYBK7k&em=2"
+        ],
+        "images":[
+
+        ],
+        "tags":[
+            "デジクリ","講座","C#","Unity","JS","React"
+        ]
+    },
+    {
+        "title":"このサイト",
+        "content":"このポートフォリオサイト。React+TypeScriptで作成。GitHubPagesで運用",
+        "urls":[
+            
+        ],
+        "iframes":[
+            
+        ],
+        "images":[
+            
+        ],
+        "tags":[
+            "React","TS"
+        ]
+    },
+    {
+        "title":"タルシス",
+        "content":"Gaiaxインターンにて作成。ブレイクアウトルーム内の会話内容を読み上げた文章から頻出単語を抽出することで可視化、ブレイクアウトルーム間の移動の活発化を目指し設計。自分はフロントエンドを担当",
+        "urls":[
+            {
+                "text":"タルシス",
+                "url":"https://tharsis.commet.jp/"
+            }
+        ],
+        "iframes":[
+            
+        ],
+        "images":[
+            "https://dm2304files.storage.live.com/y4m44Dy4VBsNY5znsvvsnTQWAXOghQcL0ndIAMfgOupERlL8fpBpqmn2tYyFjvs8hwIu9XXIhBFxdF3FM-dNJjmeJFCTpa38r9627H-WiqYXjVk18GCr7v7cpwaKO17N5sCAUCEQalKzSWgjFdvyT9inkWXfYDfoMfezRnZseDmaRNKUSOqzQIi7QbTBNmAl9iV?width=660&height=413&cropmode=none"
+        ],
+        "tags":[
+            "React","TS"
+        ]
+    },
+    {
+        "title":"一生",
+        "content":"サークル内で行なったゲームジャムにて作成。自分はUnityにてゲームプログラムを担当",
+        "urls":[
+            {
+                "text":"ゲームプレイ用ページ",
+                "url":"https://unityroom.com/games/digicre_gamejam_zinsei"
+            }
+        ],
+        "iframes":[
+            
+        ],
+        "images":[
+            "https://dm2304files.storage.live.com/y4m-8iSSDEZIscYiPMYAk7CP3BzPv6p71yzjWb5taruEnYBisVuhNAioYrqP9c4tk4RD8tjN-sFpcSMRgnKEW45v3SdOEMxgLhmNry3JS4CiqoWT0ngwGVRT2AwFdLUboq4tKCcbDGh6F2BqbyC8fUcN1GxRxcJDXXZ7fAEq5VoQ7G_EGrDrlAhYd44Txjc9W9q?width=660&height=372&cropmode=none"
+        ],
+        "tags":[
+            "デジクリ","Unity","C#"
+        ]
+    },
+    {
+        "title":"CommetDesktop",
+        "content":"Gaiaxインターンにて下記ソフトを発展改良したものを作成。ソフトはUnityで、サーバーサイドはDjangoを使用",
+        "urls":[
+            {
+                "text":"公式ページ",
+                "url":"https://commet.jp"
+            }
+        ],
+        "iframes":[
+            
+        ],
+        "images":[
+            "https://dm2304files.storage.live.com/y4moWjQGbbFbuQC5RnIaNOV4TtzNSA3x8_F-In3CHFWaeXOiARr0HCySXCxhYEBD4iGRH9dmxZee-_Kwq_xpNzSqNnbvyxRqc_n_PIk8WAwPJjZ3D8-SB2K0LzGHBNmdOgVsZhK4WJyHf2xbHkVvGW7DikdlFuHgb06bH1mYmdFtIfwg37ByALqiIcjHMEIGUj9?width=660&height=372&cropmode=none"
+        ],
+        "tags":[
+            "Unity","C#","Python","Django"
+        ]
+    },
+    {
+        "title":"Z○○m+",
+        "content":"Ruten主催のオンライン学生ハッカソンにて作成。2日間でネットワーク越しに相手のZoom画面にニコニコ動画のようなコメントを流せる仮想カメラソフトを開発。1位およびGaiax企業賞を受賞。",
+        "urls":[
+            {
+                "text":"イベントページ",
+                "url":"https://techplay.jp/event/774093"
+            }
+        ],
+        "iframes":[
+            
+        ],
+        "images":[
+            
+        ],
+        "tags":[
+            "受賞","Unity","C#"
+        ]
+    },
+    {
+        "title":"C#_GO",
+        "content":"高校時代に自主製作。Windows内蔵C#コンパイラを使い、VisualStudio無しでグラフィカルにWindowsFormアプリケーションを作成可能にした開発ソフト",
+        "urls":[
+            {
+                "text":"公式ページ",
+                "url":"https://sites.google.com/view/csharp-go/%E3%83%9B%E3%83%BC%E3%83%A0"
+            }
+        ],
+        "iframes":[
+            
+        ],
+        "images":[
+            
+        ],
+        "tags":[
+            "C#","WindowsForm"
+        ]
+    }
+]

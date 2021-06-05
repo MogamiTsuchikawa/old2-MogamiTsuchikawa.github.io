@@ -4,7 +4,7 @@ import './index.css';
 import MainPage from './component/MainPage'
 import HeaderComponent from './component/Header'
 import TerminalPage from './component/Terminal'
-import Work from './component/Work'
+import WorkPage from './component/Work'
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
@@ -13,7 +13,7 @@ ReactDOM.render(
     <Router basename={process.env.PUBLIC_URL}>
       <HeaderComponent/>
       <Route exact path="/" component={MainPage}></Route>
-      <Route exact path="/work" component={Work}></Route>
+      <Route exact path="/work" component={WorkPage}></Route>
       <Route exact path="/terminal" component={TerminalPage}></Route>
     </Router>
   </React.StrictMode>,

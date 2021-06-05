@@ -32,6 +32,14 @@ const MainPage: React.FC<Props> = (props) => {
         </Row>
         <Row>
           <Col md={12}>
+            <h2 style={{ textAlign: "center", margin: "40px 0 10px 0" }}>Award</h2>
+            <p style={{ textAlign: "center", margin: "40px 0 10px 0" }}>5Gエクスペリエンスハッカソン最優秀賞(2021/06/06)<br/>
+              Rutenオンライン学生ハッカソン1位およびGaiax企業賞
+            </p>
+          </Col>
+        </Row>
+        <Row>
+          <Col md={12}>
             <h2 style={{ textAlign: "center", margin: "40px 0 10px 0" }}>Work</h2>
             <p style={{ textAlign: "center", margin: "40px 0 10px 0" }}>作った物は<Link to="/work">こちら</Link>から</p>
           </Col>
